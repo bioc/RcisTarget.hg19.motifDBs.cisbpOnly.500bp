@@ -4,7 +4,8 @@
 \alias{hg19_500bpUpstream_motifRanking_cispbOnly}
 \alias{hg19_direct_motifAnnotation_cisbpOnly}
 \alias{hg19_inferred_motifAnnotation_cisbpOnly}
-\title{RcisTarget gene-based motif rankings and their annotation to transcription factors for Human (hg19).}
+\title{RcisTarget gene-based motif rankings and their annotation to
+transcription factors for Human (hg19).}
 
 \author{
 Sara Aibar, Gert Hulselmans, Stein Aerts.
@@ -14,16 +15,20 @@ Leuven, Belgium.
 Maintainer: Sara Aibar <sara.aibar@kuleuven.be>
 }
 \description{
-RcisTarget databases: Gene-based motif rankings and annotation to transcription factors.
+RcisTarget databases: Gene-based motif rankings and annotation to
+transcription factors.
 Due to size restrictions,
 this specific package contains a \emph{subset} of 4.6k motifs (cisbp motifs),
-scored only within 500bp upstream and the TSS, and only rankings under 5000* are kept.
+scored only within 500bp upstream and the TSS, and only rankings under 5000*
+are kept.
 
 The full database,
 containing 20k motifs and search space up to 10kbp around the TSS,
 is available for download at http://scenic.aertslab.org.
 
-* The limit to 5000 ranks implies that this is the maximum value to use as \code{aucMaxRank}  in \code{calcAUC}, and as \code{maxRank} in \code{addSignificantGenes} or \code{getSignificantGenes}.
+* The limit to 5000 ranks implies that this is the maximum value to use as
+\code{aucMaxRank}  in \code{calcAUC}, and as \code{maxRank} in
+\code{addSignificantGenes} or \code{getSignificantGenes}.
 }
 \source{
 This is a subset of the databases (20k motif collection) used in iRegulon
