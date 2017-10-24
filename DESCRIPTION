@@ -2,14 +2,14 @@ Package: RcisTarget.hg19.motifDatabases.cisbpOnly.500bp
 Type: Package
 Title: RcisTarget motif databases for human (hg19) - Subset of 4.6k motifs
 Version: 0.99.1
-Date: 2017-10-03
+Date: 2017-10-24
 Author: Sara Aibar, Gert Hulselmans, Stein Aerts. Laboratory of Computational Biology, KU Leuven Center for Human Genetics. Leuven, Belgium.
 Maintainer: Sara Aibar <sara.aibar@kuleuven.vib.be>
 Description: RcisTarget databases: Gene-based motif rankings and annotation to transcription factors. 
   Due to size restrictions, this specific package contains a subset of 4.6k motifs (cisbp motifs), scored only within 500bp upstream and the TSS. 
   The full database, containing 20k motifs and search space up to 10kbp around the TSS, is available for download at http://scenic.aertslab.org. 
 URL: http://scenic.aertslab.org
-Depends: R (>= 3.4)
+Depends: R (>= 3.2)
 Imports: data.table
 License: GPL-3
 biocViews: Homo_sapiens_Data
