@@ -1,6 +1,6 @@
-\name{RcisTarget.hg19.motifDatabases.cisbpOnly.500bp}
+\name{RcisTarget.hg19.motifDBs.cisbpOnly.500bp}
 \docType{data}
-\alias{RcisTarget.hg19.motifDatabases.cisbpOnly.500bp}
+\alias{RcisTarget.hg19.motifDBs.cisbpOnly.500bp}
 \alias{hg19_500bpUpstream_motifRanking_cispbOnly}
 \alias{hg19_direct_motifAnnotation_cisbpOnly}
 \alias{hg19_inferred_motifAnnotation_cisbpOnly}
