@@ -2,8 +2,7 @@
 \docType{data}
 \alias{RcisTarget.hg19.motifDBs.cisbpOnly.500bp}
 \alias{hg19_500bpUpstream_motifRanking_cispbOnly}
-\alias{hg19_direct_motifAnnotation_cisbpOnly}
-\alias{hg19_inferred_motifAnnotation_cisbpOnly}
+\alias{hg19_motifAnnotation_cisbpOnly}
 \title{RcisTarget gene-based motif rankings and their annotation to
 transcription factors for Human (hg19).}
 
@@ -54,14 +53,23 @@ transcription start site (TSS) of the gene:
  of the TSS and the TSS of the gene.}
 }
 
-\bold{Motif annotations}: List of matrices containing the annotation of the
-motif to transcription factors.
-\itemize{
-  \item{\bold{hg19_direct_motifAnnotation: }}{TFs directly annotated to the
-  motif (e.g. by the source database).}
- \item{\bold{hg19_inferred_motifAnnotation: }}{Expanded annotation,
- including the TF-motif associations inferred based on motif similarity
- (does NOT include the direct annotation).}
+\bold{Motif annotations}: data.table containing the annotation of the
+motif to transcription factors (\bold{hg19_motifAnnotation_cisbpOnly}). 
+
+Columns:
+ \itemize{
+ \item{\bold{motif}: }{Motif ID.}
+ \item{\bold{TF}: }{Transcription factor (or inferred gene).}
+ \item{\bold{directAnnotation}, \bold{inferred_Orthology}, 
+ \bold{inferred_MotifSimil}: }{Boolean values indicating whether the motif is 
+ annotated to the TF in the source database ("directAnnotation"), 
+ or whether it was inferred by orthology ("inferred_Orthology") 
+ or motif similarity ("inferred_MotifSimil").}
+ \item{\bold{Description}: }{Description of the source of the annotation.}
+ \item{\bold{annotationSource}: }{Source of the annotation formatted as factor 
+ (e.g. for subsetting). 
+ Levels: directAnnotation, inferredBy_Orthology, inferredBy_MotifSimilarity, 
+ inferredBy_MotifSimilarity_n_Orthology.}
 }
 
 See \emph{iRegulon} paper and documentation for \bold{details} on how the
