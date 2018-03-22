@@ -1,4 +1,5 @@
-VERSION 0.99.6
+VERSION 0.99.7
 ----------------------
+- Motif rankings are now transposed (motifs in rows, genes in columns), and updated to motif collection 9.
 - Motif-TF annotation databases have been re-formatted for easier selection of the direct/inferred annotations.
 
