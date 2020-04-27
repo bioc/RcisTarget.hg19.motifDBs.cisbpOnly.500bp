@@ -1,7 +1,7 @@
 Package: RcisTarget.hg19.motifDBs.cisbpOnly.500bp
 Type: Package
 Title: RcisTarget motif databases for human (hg19) - Subset of 4.6k motifs
-Version: 1.7.0
+Version: 1.8.0
 Date: 2018-05-03
 Author: Sara Aibar, Gert Hulselmans, Stein Aerts. Laboratory of Computational Biology, KU Leuven Center for Human Genetics. Leuven, Belgium.
 Maintainer: Sara Aibar <sara.aibar@kuleuven.vib.be>
